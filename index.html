@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juan B. · Editor de video y desarrollador web</title>
+<meta name="description" content="Portafolio de Juan B.: edición de Reels, TikTok y YouTube Shorts, y desarrollo de landing pages.">
+<style>
+  :root{--bg:#0e0f12;--card:#17191e;--line:#262932;--txt:#eceef2;--mut:#9aa0ab;--acc:#ffb547}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header{padding:64px 0 36px}
+  .tag{display:inline-block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin-bottom:14px}
+  h1{font-size:clamp(32px,6vw,54px);line-height:1.08;letter-spacing:-.02em;max-width:16ch}
+  .lead{color:var(--mut);max-width:58ch;margin-top:16px;font-size:17px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+  .chips span{border:1px solid var(--line);border-radius:99px;padding:5px 12px;font-size:13px;color:var(--mut)}
+  h2{font-size:22px;margin:48px 0 6px}
+  .sub{color:var(--mut);font-size:14px;margin-bottom:20px}
+  .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+  .card video,.card img{width:100%;display:block;background:#000}
+  .v916 video{aspect-ratio:9/16;object-fit:cover;max-height:560px}
+  .v169{grid-column:1/-1}
+  .v169 video{aspect-ratio:16/9}
+  .meta{padding:14px 16px 18px}
+  .meta h3{font-size:16px;margin-bottom:4px}
+  .meta p{color:var(--mut);font-size:14px}
+  .meta a{color:var(--acc);text-decoration:none;font-weight:600;font-size:14px;display:inline-block;margin-top:8px}
+  .note{color:var(--mut);font-size:13px;margin-top:14px}
+  .cta{margin:56px 0 0;padding:28px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+  .cta h2{margin-top:0}
+  .btn{display:inline-block;margin-top:14px;background:var(--acc);color:#111;font-weight:700;padding:11px 18px;border-radius:10px;text-decoration:none}
+  footer{color:var(--mut);font-size:13px;padding:40px 0 56px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">Portafolio · Portfolio</span>
+    <h1>Juan B. — Editor de video y desarrollador web</h1>
+    <p class="lead">Edito Reels, TikToks y YouTube Shorts con ritmo, subtítulos y color, y construyo landing pages rápidas. Colombia · Español / English.</p>
+    <div class="chips"><span>Reels / TikTok / Shorts</span><span>Subtítulos animados</span><span>Corrección de color</span><span>HTML · CSS · JavaScript</span><span>Python · PHP</span></div>
+  </header>
+
+  <h2>Edición de video</h2>
+  <p class="sub">Piezas de muestra hechas con material de stock con licencia, para negocios genéricos.</p>
+  <div class="grid">
+    <article class="card v916">
+      <video src="reel-restaurante.mp4" poster="thumb-restaurante.jpg" controls playsinline preload="none"></video>
+      <div class="meta"><h3>Reel para restaurante</h3><p>9:16 · 23 s · cortes al ritmo, zooms, subtítulos en español y llamado a la acción.</p></div>
+    </article>
+    <article class="card v916">
+      <video src="reel-aventura.mp4" poster="thumb-aventura.jpg" controls playsinline preload="none"></video>
+      <div class="meta"><h3>Reel de turismo de aventura</h3><p>9:16 · 23 s · transiciones suaves, look cálido cinematográfico y música épica.</p></div>
+    </article>
+    <article class="card v169">
+      <video src="video-travel.mp4" poster="thumb-travel.jpg" controls playsinline preload="none"></video>
+      <div class="meta"><h3>Travel promo (English)</h3><p>16:9 · 24 s · horizontal edit for YouTube, websites and ads, with English captions.</p></div>
+    </article>
+  </div>
+
+  <h2>Desarrollo web</h2>
+  <p class="sub">Landing page de muestra, responsive, hecha a mano.</p>
+  <div class="grid">
+    <article class="card">
+      <img src="landing.jpg" alt="Landing page de turismo de aventura" loading="lazy">
+      <div class="meta"><h3>Landing page · Turismo de aventura</h3><p>HTML, CSS y JavaScript sin frameworks: planes con precios, formulario de reserva, animaciones y menú móvil.</p><a href="https://thebird45.github.io/ruta-santander/" target="_blank" rel="noopener">Ver demo en vivo →</a></div>
+    </article>
+  </div>
+  <p class="note">Todos los trabajos de esta página son muestras (sample work) para fines de portafolio.</p>
+
+  <section class="cta">
+    <h2>¿Tienes un video o una página por hacer?</h2>
+    <p class="sub">Envíame tu material y te digo tiempos y precio. Entregas en 2–4 días con revisiones.</p>
+    <a class="btn" href="mailto:benitesjuan86@gmail.com">benitesjuan86@gmail.com</a>
+  </section>
+
+  <footer>© 2026 Juan B.</footer>
+</div>
+</body>
+</html>
